@@ -1,0 +1,66 @@
+h1{
+    font-weight: 800;
+    font-size: 30px;
+    color:black;
+    text-transform:;
+}
+
+.header {
+    background-color: green;
+    color: #ffffff;
+    padding: 5px;
+}
+.header ::after{
+    content:"";
+}
+
+@media only screen and (max-width: 600px) {
+    .menu1 li{
+      background-color: white;
+    }
+  }
+
+body{
+    background-image:url("images/the-creative-exchange-KufOjYrd3mg-unsplash.jpg");
+    background-size: 100%;
+}
+
+
+p{
+    /* color: white; */
+
+}
+
+label{
+    color: white;
+    font-weight: 800;
+}
+
+button{
+    color:black;
+    background-color: yellowgreen;
+    font-weight: 1000;
+}
+
+[class*="col-"]{
+    
+    display: block;
+    float:inline-end;
+    padding:;
+}
+
+.menu1 li{
+    display: block;
+    padding:6px;
+    background-color:lightblue;
+    margin-bottom: 10px;
+    margin-left: -0.7cm;    
+}
+
+.menu1 li:hover{
+    background-color: white;
+    zoom: 110%;
+}
+
+
+
