@@ -5,19 +5,29 @@ h1{
     text-transform:;
 }
 
-nav{
-    background-color:;
-    background-size: 100%;
+.header {
+    background-color: greenyellow;
+    color: #ffffff;
+    padding: 5px;
+}
+.header ::after{
+    content:"";
 }
 
+@media only screen and (max-width: 600px) {
+    .menu1 li{
+      background-color: white;
+    }
+  }
+
 body{
-    background-image: url("images/header.jpg");
-    background-size :100%;
+    background-image:url("images/the-creative-exchange-KufOjYrd3mg-unsplash.jpg");
+    background-size: 100%;
 }
 
 
 p{
-    color: white;
+    /* color: white; */
 
 }
 
@@ -31,4 +41,26 @@ button{
     background-color: yellowgreen;
     font-weight: 1000;
 }
+
+[class*="col-"]{
+    
+    display: block;
+    float:inline-end;
+    padding:;
+}
+
+.menu1 li{
+    display: block;
+    padding:6px;
+    background-color:lightblue;
+    margin-bottom: 10px;
+    margin-left: -0.7cm;    
+}
+
+.menu1 li:hover{
+    background-color: white;
+    zoom: 110%;
+}
+
+
 
